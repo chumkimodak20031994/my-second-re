@@ -1,0 +1,25 @@
+.restcn {
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 460px;
+    font-size: x-large;
+    color: darkred;
+}
+
+.Countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.country {
+    background-color: burlywood;
+    border-radius: 5px;
+    border: 4px solid gold;
+    padding: 10px;
+}
+
+.country img {
+    height: 200px;
+    width: 200px;
+}
